@@ -1,0 +1,15 @@
+{
+    "BindHost": "",
+    "BindPort": "4822",
+    "WithSSL": "true",
+	"WithConsoleLog": "true",
+	"WithFileLog": "true",
+    "MaxLogLevel": "debug",
+    "GuacServiceClientProcessPath": "./guacservice_client.exe",
+    "GuacProtocolsLibrariesFolder": "./",
+    "GuacLogOutputFolder": "./GuacLog",
+    "SSLPEMFilePath": "C:/PSM-Guacamole/GuacSSL/key.pem",
+    "SSLCertFilePath": "C:/PSM-Guacamole/GuacSSL/cert.crt",
+    "SSLDiffieHellmanPEMFilePath": "C:/PSM-Guacamole/GuacamoleService/share/guacservice/dh512.pem",
+    "FPS": 30
+}
